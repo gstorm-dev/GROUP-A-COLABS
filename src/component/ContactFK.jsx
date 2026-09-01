@@ -10,11 +10,14 @@ const ContactFK = () => {
       
       <Hero />
 
+      <div className='pt-10'>
+        <Service1/>
+      </div>
+
     <div className="overflow-hidden">
       <img src="/Image/va.avif" className="w-full object-cover" />
     </div>
       <div>
-        <Service1/>
       </div>
       <div>
         <AboutFk />

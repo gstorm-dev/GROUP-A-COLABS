@@ -16,8 +16,8 @@ const Navbar = () => {
         
         
         <div className="flex gap-4 text-[24px]">
-          <Link to='/Home' className="text-gray-600 font-Arial font-normal tracking-[-2px] hover:text-[rgb(0,123,255)] duration-[0.5s]">Home</Link>
-          <Link to='/Contact' className="text-[rgb(0,123,255)] font-Arial font-normal tracking-[-2px] hover:text-[rgb(0,123,255)] duration-[0.5s]">Contact</Link>
+          <Link to='/Home' className="text-[rgb(0,123,255)] font-Arial font-normal tracking-[-2px] hover:text-[rgb(0,123,255)] duration-[0.5s]">Home</Link>
+          <Link to='/Contact' className="text-gray-600 font-Arial font-normal tracking-[-2px] hover:text-[rgb(0,123,255)] duration-[0.5s]">Contact</Link>
           <Link to='/Service' className="text-gray-600 font-Arial font-normal tracking-[-2px] hover:text-[rgb(0,123,255)] duration-[0.5s]">Service</Link>
         </div>
       </nav>
