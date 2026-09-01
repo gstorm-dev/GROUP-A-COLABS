@@ -8,7 +8,7 @@ const Navbar = () => {
       <header className="m-4">
       <nav className="bg-white flex justify-center gap-10  py-2 shadow-[0_8px_16px_rgba(0,0,200,0.18)] w-[90%] max-w-[540px] mx-auto rounded-[10px]">
         <div className="flex justify-center items-center gap-2">
-        <img src="/Image/newlogo.png" />
+        <img src="/Image/newlogo.png" className="h-8 w-8" />
         <h1 className="text-[24px] font-bold tracking-[-1px] font-sans-serif text-[rgb(0,123,255)]">
           FOKOREMOVALS
         </h1>
@@ -16,9 +16,9 @@ const Navbar = () => {
         
         
         <div className="flex gap-4 text-[24px]">
-          <Link to='/Home' className="text-[rgb(0,123,255)] tracking-[-2px] ">Home</Link>
-          <Link to='/Contact' className="text-gray-600 font-Arial font-normal tracking-[-2px] hover:text-[oklch(0.623_0.214_259.815)] duration-[0.5s]">Contact</Link>
-          <Link to='/Service' className="text-gray-600 font-Arial font-normal tracking-[-2px] hover:text-[oklch(0.623_0.214_259.815)] duration-[0.5s]">Service</Link>
+          <Link to='/Home' className="text-gray-600 font-Arial font-normal tracking-[-2px] hover:text-[rgb(0,123,255)] duration-[0.5s]">Home</Link>
+          <Link to='/Contact' className="text-[rgb(0,123,255)] font-Arial font-normal tracking-[-2px] hover:text-[rgb(0,123,255)] duration-[0.5s]">Contact</Link>
+          <Link to='/Service' className="text-gray-600 font-Arial font-normal tracking-[-2px] hover:text-[rgb(0,123,255)] duration-[0.5s]">Service</Link>
         </div>
       </nav>
      </header>
